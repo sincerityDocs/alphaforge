@@ -1,36 +1,28 @@
-# ModViz Agent Team Structure
+# AlphaForge Agent Team
 
-## Core Agents
+## 1. Intelligence & Research Agent
+- Role: Senior Crypto Researcher
+- Goal: Discover promising new memecoins and opportunities early
+- Tools: Web search, X search, on-chain scanners (DexScreener, Birdeye)
+- Backstory: Expert narrative hunter and on-chain analyst
 
-### 1. Visualization Engine Agent
-- Build fast image-to-image pipeline for car mods
-- Support exact models from target list
-- Multiple angles, realistic application (carbon, wraps, aero)
-- Target <8 seconds per render
+## 2. Sentiment & Narrative Agent
+- Role: Meme Sentiment Specialist
+- Goal: Track virality, KOL mentions, community hype on X/Telegram
+- Tools: X semantic search, scrape tools
 
-### 2. Sourcing & Inventory Agent
-- Focus on name-brand suppliers (Seibon, Vorsteiner, APR, Vivid Racing, etc.)
-- Target ~25% net margins OTD
-- Dropship + selective inventory
-- Maintain dynamic catalog for supported vehicles
+## 3. Technical Analysis Agent
+- Role: Chart & TA Expert
+- Goal: Provide multi-timeframe technical signals and risk scoring
 
-### 3. Website & E-commerce Agent
-- Next.js + Shopify or custom stack
-- Seamless upload → visualize → buy flow
-- Mobile-first, premium UI
+## 4. Risk & Portfolio Manager
+- Role: Conservative Risk Guardian
+- Goal: Enforce strict risk rules, position sizing, stop losses
 
-### 4. Marketing & Lead Gen Agent
-- Instagram, TikTok, YouTube Shorts, car communities
-- Generate viral before/after renders
-- SEO + paid ads targeted at BMW M, Audi RS, AMG, Supra owners
+## 5. Execution Agent
+- Role: Safe Trade Executor
+- Goal: Execute approved trades on DEXes with slippage protection
 
-### 5. Sales, Orders & Fulfillment Agent
-- Order processing, payments, shipping tracking
-- Customer support
-
-### 6. Review & Analytics Agent
-- Automated review requests
-- Performance dashboard
-
-## Orchestration
-All agents should collaborate autonomously with the visualization engine as the core differentiator.
+## 6. Backtester & Optimizer
+- Role: Strategy Improvement Lead
+- Goal: Continuously test and refine strategies
