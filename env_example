@@ -1,0 +1,29 @@
+# AlphaForge Environment Variables
+# Copy to .env and fill in your own keys
+
+# LLM API Keys
+GROK_API_KEY=sk-...
+OPENAI_API_KEY=sk-...
+ANTHROPIC_API_KEY=sk-...
+
+# Search & Web Tools
+SERPER_API_KEY=...
+TAVILY_API_KEY=...
+
+# Crypto Data APIs
+BIRDEYE_API_KEY=...
+# DEXSCREENER doesn't usually need a key
+
+# Social Monitoring (Optional)
+TWITTER_BEARER_TOKEN=...
+
+# Telegram Notifications (Optional)
+TELEGRAM_BOT_TOKEN=...
+TELEGRAM_CHAT_ID=...
+
+# Trading Wallet (Use a SMALL dedicated wallet only!)
+SOLANA_PRIVATE_KEY=...   # ← Never commit this
+
+# Mode
+TRADING_MODE=paper        # Change to 'live' only when ready
+MAX_POSITION_SIZE_USD=50
